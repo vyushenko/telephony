@@ -1,0 +1,126 @@
+/* Global styles */
+body { 
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  font-family: 'Open Sans', 'Roboto Slab', serif;
+  text-transform: none;
+  font-weight: 700;
+}
+span.av-brand { color:#E2665D;font-family: 'Playfair Display';font-size:110%; }
+  
+.half-rule{
+  width: 100px;
+  margin: 40px auto;
+}
+
+/* Navigation */
+.navbar { 
+  margin-bottom: 0px;
+}
+.navbar-default .navbar-brand { color:#E2665D;font-family: 'Playfair Display';margin-top:-5px; }  
+.navbar-default .navbar-subbrand { font-size:9px;text-align:center; }    
+.navbar-default .navbar-brand div { margin-bottom: -5px; }
+
+/*.navbar-default .navbar-nav>li { border-bottom: solid 3px transparent; }*/
+.navbar-default .navbar-nav>li>a { color:#66757F; }
+.navbar-default .navbar-nav>li>a:hover { color:#66757F; }
+/*.navbar-default .navbar-nav>li:hover { border-bottom: solid 3px #E2665D; }*/
+.navbar-default .navbar-nav>li>a:hover:after {
+  content: "";
+  border-top: 3px solid #E2665D;
+  width:100%;
+  position: absolute;
+  left:0px;
+  bottom: -4px;
+}
+/*.navbar-default .navbar-nav>li>a:hover:after {
+  content: "";
+  border-top: 3px solid #E2665D;
+  bottom: 0px;
+  left: 2%;
+  margin-left: 11px;
+  padding-right: 100%;
+  position: absolute;
+  height:0;
+  bottom: -4px;
+}*/
+/*.navbar-default .navbar-nav>li>a:hover:before {
+  content: "";
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-top: 11px solid #F2766D;
+  bottom: -14px;
+  height: 0;
+  left: 50%;
+  margin-left: -11px;
+  position: absolute;
+  width: 0;
+}*/
+/*.navbar-default .navbar-nav>li>a:hover:after
+{
+  content: "";
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #E2665D;
+  bottom: -13px;
+  height: 0;
+  left: 50%;
+  margin-left: -10px;
+  position: absolute;
+  width: 0;
+}*/
+
+/* Main contant */
+@media (min-width:768px){.a-main-content { 
+  background-image:url('../img/decolorized-office.jpg');
+  background-repeat:no-repeat;
+  background-attachment:fixed; 
+} }
+
+.a-highlights {
+  text-align:left;
+  font-size:30px;
+  font-family: 'Lustria', serif;
+  font-size: 3.813em;
+  font-weight: 500;
+  text-shadow: 2px 2px rgba(200,200,200,.55);
+  line-height: 80px;
+  padding-bottom:46px;
+  border-bottom: 1px #e7e7e7 solid;
+}
+
+.a-highlights .a-highlight-text { padding:30px 0px 30px 50px; } 
+.a-highlights .a-highlight-icon { font-size:100px;display:none; }
+@media (min-width:768px){.a-highlights .a-highlight-icon{padding-top:60px;display:block;}}
+
+/*.a-links-content { padding:0px 10px;background-color:#fff;  padding-top: 10px; }
+.a-links-content a { color:#555;background-color:#A2E0AD;text-align:center;padding:20px 0px;display:block;text-decoration:none;font-size:20px;border-bottom:solid #147926 1px; }
+.a-links-content a:hover { color:#fff;background-color:#47AD59; }
+@media (min-width:768px){.a-links-content a{border-bottom:solid transparent 1px;}}*/
+.a-main-content .button-row { padding-top:10px;background-color:#fff; }
+.a-main-content .button-row .btn { width:48%;font-size: 25px;margin-left:1%;padding: 10px 0px; }
+
+.av-featurette {padding-top:40px;padding-bottom:40px;font-size:16px;line-height:1.5;color:#555;text-align:center;border-bottom:1px solid #e5e5e5}
+.av-featurette-title {}
+.lead {color:#cccccc;} 
+
+.plans { text-align:center; }   
+.plans .plan-container { padding: 5px 15px 20px;background: #FFF;border: 1px solid #DDD;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px; }     
+@media (min-width:768px){ .plans .plan-container {max-width:400px; } }
+.plans .col-sm-6:first-child .plan-container{ margin-left:auto;margin-right:0px; }
+.plan-name { font-size: 21px;font-weight: 600;text-transform: uppercase; }
+.plan-desc { color:#888;margin:0 0 10px; }
+.plan-div { margin:20px 0;border:0;border-top:1px solid #eeeeee;border-bottom:1px solid #ffffff; }
+.plan-price { color:#46a546;font-size:32px;font-weight:400; }
+.plans .plan-container ul li { list-style: none;margin: 0 0 1.65em; }
+.plans .plan-container ul li .value { padding-right: .35em;font-size: 16px;font-weight: 600; }
+.plans .plan-container .btn { width: 75%;padding-top: 9px;padding-bottom: 9px;margin-top: 1em;font-size: 21px; }
+    
+.av-footer{padding-top:10px;padding-bottom:10px;text-align:center;}
+.av-footer-links{margin-top:20px;color:#999}
+.av-footer-links li{display:inline;padding:0 2px}
+.av-footer-links li a{color:#777}
+.av-footer-links li:first-child{padding-left:0}
